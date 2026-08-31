@@ -1,0 +1,24 @@
+name: hestia
+channels:
+  - pytorch
+  - nvidia
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch:pytorch=2.4.0
+  - pytorch:pytorch-cuda=11.8
+  - pytorch:torchvision=0.19.0
+  - lightning=2.5.6
+  - mkl=2022.1.0
+  - safetensors=0.4.4
+  - numpy=1.26.4
+  - scanpy=1.10.2
+  - scikit-image=0.25.2
+  - scikit-learn=1.7.1
+  - einops=0.8.0
+  - comet-ml=3.55.0
+  - pip=25.3
+  - pip:
+    - opencv-python==4.11.0.86
+    - igraph==0.11.6
